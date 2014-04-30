@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF4B3B71910FF9A00FEFBF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4B3B61910FF9A00FEFBF3 /* Foundation.framework */; };
+		EEF4B3B91910FF9A00FEFBF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4B3B81910FF9A00FEFBF3 /* CoreGraphics.framework */; };
+		EEF4B3BB1910FF9A00FEFBF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF4B3BA1910FF9A00FEFBF3 /* UIKit.framework */; };
+		EEF4B3C11910FF9A00FEFBF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEF4B3BF1910FF9A00FEFBF3 /* InfoPlist.strings */; };
+		EEF4B3C31910FF9A00FEFBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF4B3C21910FF9A00FEFBF3 /* main.m */; };
+		EEF4B3C71910FF9A00FEFBF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF4B3C61910FF9A00FEFBF3 /* AppDelegate.m */; };
+		EEF4B3CA1910FF9A00FEFBF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF4B3C81910FF9A00FEFBF3 /* Main.storyboard */; };
+		EEF4B3F11911010400FEFBF3 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF4B3F01911010400FEFBF3 /* DemoTableViewController.m */; };
+		EEF4B3F41911056D00FEFBF3 /* HFColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF4B3F31911056D00FEFBF3 /* HFColorPickerView.m */; };
+		EEF4B3F7191122F300FEFBF3 /* HFColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF4B3F6191122F300FEFBF3 /* HFColorButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEF4B3B31910FF9A00FEFBF3 /* HFColorPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFColorPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4B3B61910FF9A00FEFBF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEF4B3B81910FF9A00FEFBF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEF4B3BA1910FF9A00FEFBF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EEF4B3BE1910FF9A00FEFBF3 /* HFColorPickerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HFColorPickerDemo-Info.plist"; sourceTree = "<group>"; };
+		EEF4B3C01910FF9A00FEFBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEF4B3C21910FF9A00FEFBF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEF4B3C41910FF9A00FEFBF3 /* HFColorPickerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HFColorPickerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		EEF4B3C51910FF9A00FEFBF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEF4B3C61910FF9A00FEFBF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEF4B3C91910FF9A00FEFBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEF4B3D51910FF9A00FEFBF3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EEF4B3DD1910FF9A00FEFBF3 /* HFColorPickerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HFColorPickerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		EEF4B3DF1910FF9A00FEFBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EEF4B3E11910FF9A00FEFBF3 /* HFColorPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFColorPickerDemoTests.m; sourceTree = "<group>"; };
+		EEF4B3EF1911010400FEFBF3 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		EEF4B3F01911010400FEFBF3 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		EEF4B3F21911056D00FEFBF3 /* HFColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFColorPickerView.h; sourceTree = "<group>"; };
+		EEF4B3F31911056D00FEFBF3 /* HFColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFColorPickerView.m; sourceTree = "<group>"; };
+		EEF4B3F5191122F300FEFBF3 /* HFColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFColorButton.h; sourceTree = "<group>"; };
+		EEF4B3F6191122F300FEFBF3 /* HFColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFColorButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF4B3B01910FF9A00FEFBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4B3B91910FF9A00FEFBF3 /* CoreGraphics.framework in Frameworks */,
+				EEF4B3BB1910FF9A00FEFBF3 /* UIKit.framework in Frameworks */,
+				EEF4B3B71910FF9A00FEFBF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF4B3AA1910FF9A00FEFBF3 = {
+			isa = PBXGroup;
+			children = (
+				EEF4B3BC1910FF9A00FEFBF3 /* HFColorPickerDemo */,
+				EEF4B3DB1910FF9A00FEFBF3 /* HFColorPickerDemoTests */,
+				EEF4B3B51910FF9A00FEFBF3 /* Frameworks */,
+				EEF4B3B41910FF9A00FEFBF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF4B3B41910FF9A00FEFBF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4B3B31910FF9A00FEFBF3 /* HFColorPickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF4B3B51910FF9A00FEFBF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4B3B61910FF9A00FEFBF3 /* Foundation.framework */,
+				EEF4B3B81910FF9A00FEFBF3 /* CoreGraphics.framework */,
+				EEF4B3BA1910FF9A00FEFBF3 /* UIKit.framework */,
+				EEF4B3D51910FF9A00FEFBF3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF4B3BC1910FF9A00FEFBF3 /* HFColorPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4B3EB1911005F00FEFBF3 /* HFColorPicker */,
+				EEF4B3C51910FF9A00FEFBF3 /* AppDelegate.h */,
+				EEF4B3C61910FF9A00FEFBF3 /* AppDelegate.m */,
+				EEF4B3C81910FF9A00FEFBF3 /* Main.storyboard */,
+				EEF4B3EF1911010400FEFBF3 /* DemoTableViewController.h */,
+				EEF4B3F01911010400FEFBF3 /* DemoTableViewController.m */,
+				EEF4B3BD1910FF9A00FEFBF3 /* Supporting Files */,
+			);
+			path = HFColorPickerDemo;
+			sourceTree = "<group>";
+		};
+		EEF4B3BD1910FF9A00FEFBF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4B3BE1910FF9A00FEFBF3 /* HFColorPickerDemo-Info.plist */,
+				EEF4B3BF1910FF9A00FEFBF3 /* InfoPlist.strings */,
+				EEF4B3C21910FF9A00FEFBF3 /* main.m */,
+				EEF4B3C41910FF9A00FEFBF3 /* HFColorPickerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEF4B3DB1910FF9A00FEFBF3 /* HFColorPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4B3E11910FF9A00FEFBF3 /* HFColorPickerDemoTests.m */,
+				EEF4B3DC1910FF9A00FEFBF3 /* Supporting Files */,
+			);
+			path = HFColorPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		EEF4B3DC1910FF9A00FEFBF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4B3DD1910FF9A00FEFBF3 /* HFColorPickerDemoTests-Info.plist */,
+				EEF4B3DE1910FF9A00FEFBF3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEF4B3EB1911005F00FEFBF3 /* HFColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4B3F21911056D00FEFBF3 /* HFColorPickerView.h */,
+				EEF4B3F31911056D00FEFBF3 /* HFColorPickerView.m */,
+				EEF4B3F5191122F300FEFBF3 /* HFColorButton.h */,
+				EEF4B3F6191122F300FEFBF3 /* HFColorButton.m */,
+			);
+			name = HFColorPicker;
+			path = ../../HFColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF4B3B21910FF9A00FEFBF3 /* HFColorPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF4B3E51910FF9A00FEFBF3 /* Build configuration list for PBXNativeTarget "HFColorPickerDemo" */;
+			buildPhases = (
+				EEF4B3AF1910FF9A00FEFBF3 /* Sources */,
+				EEF4B3B01910FF9A00FEFBF3 /* Frameworks */,
+				EEF4B3B11910FF9A00FEFBF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HFColorPickerDemo;
+			productName = HFColorPickerDemo;
+			productReference = EEF4B3B31910FF9A00FEFBF3 /* HFColorPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF4B3AB1910FF9A00FEFBF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hendrik Frahmann";
+			};
+			buildConfigurationList = EEF4B3AE1910FF9A00FEFBF3 /* Build configuration list for PBXProject "HFColorPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEF4B3AA1910FF9A00FEFBF3;
+			productRefGroup = EEF4B3B41910FF9A00FEFBF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF4B3B21910FF9A00FEFBF3 /* HFColorPickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF4B3B11910FF9A00FEFBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4B3C11910FF9A00FEFBF3 /* InfoPlist.strings in Resources */,
+				EEF4B3CA1910FF9A00FEFBF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF4B3AF1910FF9A00FEFBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4B3F11911010400FEFBF3 /* DemoTableViewController.m in Sources */,
+				EEF4B3F41911056D00FEFBF3 /* HFColorPickerView.m in Sources */,
+				EEF4B3F7191122F300FEFBF3 /* HFColorButton.m in Sources */,
+				EEF4B3C71910FF9A00FEFBF3 /* AppDelegate.m in Sources */,
+				EEF4B3C31910FF9A00FEFBF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEF4B3BF1910FF9A00FEFBF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4B3C01910FF9A00FEFBF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EEF4B3C81910FF9A00FEFBF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4B3C91910FF9A00FEFBF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEF4B3DE1910FF9A00FEFBF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4B3DF1910FF9A00FEFBF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF4B3E31910FF9A00FEFBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEF4B3E41910FF9A00FEFBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF4B3E61910FF9A00FEFBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HFColorPickerDemo/HFColorPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HFColorPickerDemo/HFColorPickerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EEF4B3E71910FF9A00FEFBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HFColorPickerDemo/HFColorPickerDemo-Prefix.pch";
+				INFOPLIST_FILE = "HFColorPickerDemo/HFColorPickerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF4B3AE1910FF9A00FEFBF3 /* Build configuration list for PBXProject "HFColorPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4B3E31910FF9A00FEFBF3 /* Debug */,
+				EEF4B3E41910FF9A00FEFBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF4B3E51910FF9A00FEFBF3 /* Build configuration list for PBXNativeTarget "HFColorPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4B3E61910FF9A00FEFBF3 /* Debug */,
+				EEF4B3E71910FF9A00FEFBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF4B3AB1910FF9A00FEFBF3 /* Project object */;
+}
