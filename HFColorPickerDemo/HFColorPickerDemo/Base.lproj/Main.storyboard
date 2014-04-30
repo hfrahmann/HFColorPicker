@@ -76,6 +76,7 @@
         <scene sceneID="7IO-mi-Hgx">
             <objects>
                 <navigationController definesPresentationContext="YES" id="JgX-kJ-thg" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="f3C-Ra-Xzy">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

@@ -15,6 +15,8 @@
 @property (nonatomic, assign) IBOutlet id<HFColorPickerViewDelegate> delegate;
 @property (nonatomic, strong) NSArray* colors;
 @property (nonatomic) CGFloat buttonDiameter;
+@property (nonatomic) NSInteger selectedIndex;
+@property (nonatomic) CGFloat topSpace;
 
 @end
 

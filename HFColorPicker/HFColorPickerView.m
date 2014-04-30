@@ -26,6 +26,8 @@
 @synthesize colorButtons   = _colorButtons;
 @synthesize colors         = _colors;
 @synthesize buttonDiameter = _buttonDiameter;
+@synthesize selectedIndex  = _selectedIndex;
+@synthesize topSpace       = _topSpace;
 
 - (void)setColors:(NSArray *)colors
 {
@@ -39,11 +41,29 @@
     [self calculateButtonFrames];
 }
 
+- (void)setSelectedIndex:(NSInteger)selectedIndex
+{
+    if(selectedIndex >= _colorButtons.count)
+        selectedIndex = _colorButtons.count - 1;
+    
+    _selectedIndex = selectedIndex;
+    
+    HFColorButton* button = [_colorButtons objectAtIndex:selectedIndex];
+    [self selectButton:button];
+}
+
 - (CGFloat)buttonDiameter
 {
     if(_buttonDiameter == 0.0)
         _buttonDiameter = 40.0;
     return _buttonDiameter;
+}
+
+- (CGFloat)topSpace
+{
+    if(_topSpace == 0)
+        _topSpace = 5.0f;
+    return _topSpace;
 }
 
 - (NSMutableArray*)colorButtons
@@ -109,7 +129,7 @@
     buttonSpace += floor((frameWidth - (double)rowWidth) / buttonsPerRow);
     
     CGFloat x = ceil(buttonSpace / 2.0f);
-    CGFloat y = 5.0f;
+    CGFloat y = _topSpace;
     
     NSInteger currentRow = 1;
     NSInteger currentPosition = 1;
