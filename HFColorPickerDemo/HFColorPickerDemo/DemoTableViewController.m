@@ -25,14 +25,14 @@
                                 [UIColor blueColor],
                                 [UIColor greenColor],
                                 [UIColor yellowColor],
-                                /*[UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0],
+                                [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0],
                                 [UIColor purpleColor],
                                 [UIColor orangeColor],
                                 [UIColor brownColor],
                                 [UIColor colorWithRed:0.6 green:0.6 blue:0.6 alpha:1.0],
                                 [UIColor colorWithRed:0.8 green:0.4 blue:0.5 alpha:1.0],
                                 [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0],
-                                [UIColor colorWithRed:0.0 green:1.0 blue:1.0 alpha:1.0]*/
+                                [UIColor colorWithRed:0.0 green:1.0 blue:1.0 alpha:1.0]
                                 ];
 }
 
