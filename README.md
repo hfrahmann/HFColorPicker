@@ -26,7 +26,7 @@ There is only one delegate method that needs to be implemented.
 
 ```
 - (void)colorPicker:(HFColorPickerView *)colorPickerView selectedColor:(UIColor *)selectedColor;
-´´´
+```
 
 
 License
