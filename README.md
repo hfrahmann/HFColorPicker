@@ -28,6 +28,17 @@ There is only one delegate method that needs to be implemented.
 - (void)colorPicker:(HFColorPickerView *)colorPickerView selectedColor:(UIColor *)selectedColor;
 ```
 
+These are the configuration properties for ColorPickerView:
+
+```
+_colorPickerView.colors = @[ [UIColor redColor], [UIColor blueColor], [UIColor greenColor], [UIColor yellowColor] ];
+
+// optional:
+_colorPickerView.topSpace = 5.0f;
+_colorPickerView.buttonDiameter = 20.0f;
+_colorPickerView.selectedIndex = 2;
+```
+
 
 License
 -------

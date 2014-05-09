@@ -32,9 +32,6 @@
 		EEF4B3C61910FF9A00FEFBF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EEF4B3C91910FF9A00FEFBF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEF4B3D51910FF9A00FEFBF3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		EEF4B3DD1910FF9A00FEFBF3 /* HFColorPickerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HFColorPickerDemoTests-Info.plist"; sourceTree = "<group>"; };
-		EEF4B3DF1910FF9A00FEFBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EEF4B3E11910FF9A00FEFBF3 /* HFColorPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFColorPickerDemoTests.m; sourceTree = "<group>"; };
 		EEF4B3EF1911010400FEFBF3 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		EEF4B3F01911010400FEFBF3 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		EEF4B3F21911056D00FEFBF3 /* HFColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFColorPickerView.h; sourceTree = "<group>"; };
@@ -61,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				EEF4B3BC1910FF9A00FEFBF3 /* HFColorPickerDemo */,
-				EEF4B3DB1910FF9A00FEFBF3 /* HFColorPickerDemoTests */,
 				EEF4B3B51910FF9A00FEFBF3 /* Frameworks */,
 				EEF4B3B41910FF9A00FEFBF3 /* Products */,
 			);
@@ -107,24 +103,6 @@
 				EEF4B3BF1910FF9A00FEFBF3 /* InfoPlist.strings */,
 				EEF4B3C21910FF9A00FEFBF3 /* main.m */,
 				EEF4B3C41910FF9A00FEFBF3 /* HFColorPickerDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EEF4B3DB1910FF9A00FEFBF3 /* HFColorPickerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				EEF4B3E11910FF9A00FEFBF3 /* HFColorPickerDemoTests.m */,
-				EEF4B3DC1910FF9A00FEFBF3 /* Supporting Files */,
-			);
-			path = HFColorPickerDemoTests;
-			sourceTree = "<group>";
-		};
-		EEF4B3DC1910FF9A00FEFBF3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				EEF4B3DD1910FF9A00FEFBF3 /* HFColorPickerDemoTests-Info.plist */,
-				EEF4B3DE1910FF9A00FEFBF3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,14 +208,6 @@
 				EEF4B3C91910FF9A00FEFBF3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EEF4B3DE1910FF9A00FEFBF3 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEF4B3DF1910FF9A00FEFBF3 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
